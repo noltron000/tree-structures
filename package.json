@@ -1,20 +1,25 @@
 {
-	"name": "roleplayer",
-	"private": true,
-	"license": "NONE",
-	"version": "0.0.1",
-	"description": "An online-centered table-top roleplaying game.",
+	"name": "@noltron000/tree-structures",
+	"private": false,
+	"license": "UNLICENSED",
+	"version": "0.0.2",
+	"description": "A suite of tree-structured data classes.",
 	"keywords": [
-		"roleplaying game"
+		"tree-structures",
+		"tree",
+		"trees",
+		"data",
+		"data structure",
+		"data structures"
 	],
-	"homepage": "https://github.com/noltron000/roleplaying-game#readme",
+	"homepage": "https://github.com/noltron000/tree-structures#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/noltron000/roleplaying-game.git"
+		"url": "git+https://github.com/noltron000/tree-structures.git"
 	},
 	"bugs": {
 		"email": "noltron000@gmail.com",
-		"url": "https://github.com/noltron000/roleplaying-game/issues"
+		"url": "https://github.com/noltron000/tree-structures/issues"
 	},
 	"author": {
 		"name": "Nolan Kovacik",
