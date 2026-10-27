@@ -1,7 +1,7 @@
 {
 	"name": "@noltron000/tree-structures",
 	"private": false,
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"version": "0.0.2",
 	"description": "A suite of tree-structured data classes.",
 	"keywords": [

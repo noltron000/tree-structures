@@ -10,7 +10,7 @@
 
 
 ## How to Install
-You can install the npm package by running `yarn add noltron000/tree-structures` or `npm install @noltron000/tree-structures`.
+You can install the npm package by running `yarn add @noltron000/tree-structures` or `npm install @noltron000/tree-structures`.
 
 ## Navigating the Project's Exports
 There are several things exported by this project, but most of them are types and abstract classes.
