@@ -1,5 +1,5 @@
 import {AbstractBilateralTree} from './AbstractTrees/index.mts'
-import {AdoptionOptions, Tree} from './index.mts'
+import {Tree} from './index.mts'
 
 class RootedTree <Data = never> extends Tree<Data>
 implements AbstractBilateralTree<Data> {

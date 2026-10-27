@@ -6,7 +6,6 @@ import type {
 	VisitData,
 	VisitFx,
 	TraversalOptions,
-	AdoptionOptions,
 } from './index.mts'
 
 const missingPath = new Error(
