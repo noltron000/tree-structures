@@ -2,11 +2,11 @@ import JSON5 from 'json5'
 
 import {SortedList} from '#classes/Lists'
 import {TurnTrackerEvents} from '#classes/TurnTracker'
-import {makeTable} from '#tools/tables'
+import {makeTable} from '#tools/tables.mts'
 
 import type {SortedListArgs} from '#classes/Lists'
 import type {EventListeners} from '#classes/TurnTracker'
-import type {integer, checkMethod} from '#types/aliases'
+import type {integer, checkMethod} from '#types/aliases.d.mts'
 
 /** A Turn containing index metadata. Can be nullish. */
 type MetaTurn<Type> = {index: integer, turn: Type} | null
