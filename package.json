@@ -37,25 +37,17 @@
 	"main": "./build/index.mjs",
 	"files": ["build"],
 	"imports": {
-		"#classes/*": {
-			"development": "./source/classes/*/index.mts",
-			"default": "./build/classes/*/index.mjs"
+		"#*": {
+			"development": "./source/*/index.mts",
+			"default": "./build/*/index.mjs"
 		},
-		"#data/*": {
-			"development": "./source/data/*/index.mts",
-			"default": "./build/data/*/index.mjs"
-		},
-		"#tools/*": {
-			"development": "./source/tools/*/index.mts",
-			"default": "./build/tools/*/index.mjs"
-		},
-		"#types/*": {
-			"development": "./source/types/*.d.mts",
-			"default": "./build/types/*.d.mts"
-		},
-		"#source/*": {
+		"#*.mts": {
 			"development": "./source/*.mts",
 			"default": "./build/*.mjs"
+		},
+		"#*.d.mts": {
+			"development": "./source/*.d.mts",
+			"default": "./build/*.d.mts"
 		}
 	},
 	"exports": {
