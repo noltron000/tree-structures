@@ -1,6 +1,6 @@
 import {AbstractTree} from './index.mts'
 
-import type {Constructor} from '#types/aliases'
+import type {Constructor} from '#types/aliases.d.mts'
 import type {
 	GraphPath,
 	VisitData,
