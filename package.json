@@ -1,7 +1,7 @@
 {
 	"name": "roleplayer",
 	"private": true,
-	"license": "NONE",
+	"license": "MIT",
 	"version": "0.0.1",
 	"description": "An online-centered table-top roleplaying game.",
 	"keywords": [
